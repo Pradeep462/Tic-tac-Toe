@@ -1,0 +1,41 @@
+body{
+    font-family: "Arial", sans-serif;
+    background-color: cornflowerblue;
+    
+}
+section{
+    text-align: center;
+    font-size: 80px;
+}
+.game--container{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    width:606px;
+    margin:50px auto;
+}
+.cell{
+    font-family: "Permanent marker",cursive;
+    width: 200px;
+    background-color:lightsteelblue;
+    height: 200px;
+    box-shadow:0 0 0 1px #333333;
+    border:3px solid #333333;
+    cursor:pointer;
+    line-height: 170px;
+    font-size:150px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border:5px solid rgb(218, 209, 209);
+    color: white;
+    font-family: "Permanent marker",cursive;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+  }
+  .game--status{
+    font-family: "Permanent marker",cursive;
+    font-size: 80px;
+  }
